@@ -1,3 +1,27 @@
-data/
-datas/
-*.csv
+# Ignore data files, but track DVC metadata
+data/*
+!data/*.dvc
+
+# Do NOT ignore Jupyter notebooks — we want to track them!
+!*.ipynb
+
+# Ignore checkpoints created by Jupyter
+# .ipynb_checkpoints/
+
+# Ignore DVC cache and temp files
+.cache/
+.dvc/
+
+# Ignore Python bytecode and envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+*.env
+
+# VSCode and OS files
+.vscode/
+.DS_Store
+Thumbs.db
