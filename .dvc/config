@@ -1,4 +1,4 @@
 [core]
     remote = localstorage
 ['remote "localstorage"']
-    url = C:\Users\Bob\Desktop\10Acadamy\week-3\AlphaCare-insurance\storage
+    url = C:\Users\Bob\Documents\localStorage-week3
